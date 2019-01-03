@@ -7,7 +7,7 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");//youtube api key
 const queue = new Map();//the queue map
 const token = process.env.BOT_TOKEN//your bot token
-const prefix = '+'//your prefix
+const prefix = '1play'//your prefix
 
 
 //All copytights for Eyad & (old) Codes
