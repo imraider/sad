@@ -1,3 +1,17 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
+var prefix = "+";
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : EX Clan`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`1play | Legend Raider`,"http://twitch.tv/Death Shop")
+client.user.setStatus("dnd")
+});
+
 const moment = require('moment')
 const ytdl = require("ytdl-core");
 const { Client, Util } = require('discord.js');
@@ -317,17 +331,4 @@ function play(guild, song) {
 })
 })
 }
-});
-const Discord = require("discord.js");
-const client = new Discord.Client();
-var prefix = "+";
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Desert Bot- Script By : EX Clan`);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`1play | Legend Raider`,"http://twitch.tv/Death Shop")
-client.user.setStatus("dnd")
 });
